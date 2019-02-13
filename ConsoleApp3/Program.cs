@@ -6,14 +6,14 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            int password = 123;
+            string password = "blue10";
             string userId = "BPaetow";
 
             Console.WriteLine("Please enter your user Id:");
             string userIdInput = Console.ReadLine();
 
             Console.WriteLine("Please enter your password:");
-            int passwordInput = int.Parse(Console.ReadLine());
+            string passwordInput = (Console.ReadLine());
 
             if (userIdInput == userId && passwordInput == password)
             {
