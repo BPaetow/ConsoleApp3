@@ -21,7 +21,7 @@ namespace ConsoleApp3
             }
             else
             {
-                Console.WriteLine("incorrect ID or Pin!");
+                Console.WriteLine("incorrect UserID");
             }
         }
     }
